@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    background-color: #31343d;
+    float: left;
+    
+
+}
+
+.navigation {
+    float: right;
+    display: flex;
+    align-content: center;
+    
+
+}
+
+.custom {
+    height: ;
+    width: ;
+    margin-bottom: ;
+    background-image: url();
+    background-size: ;
+    background-position: ;
+}
+
+/*#445877
+#92ccce
+#31343d
+#1c1d21
+#eeeef7*/
