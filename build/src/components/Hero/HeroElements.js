@@ -4,18 +4,34 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: 950px;
+    position: relative;
+    color: #fff;
+    margin-top: -170px;
 `;
 
-export const HeroBg = styled.div`
+export const HeroContent = styled.div`
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 20px;
+`;
+
+export const HeroH1 = styled.h1`
+    font-family: Arial;
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+`;
+
+export const HeroP = styled.p`
+    font-family: Georgia;
+    font-size: 22px;
+    text-align: center;
 `;
 
 export const Image = styled.img`
