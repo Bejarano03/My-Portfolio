@@ -1,6 +1,9 @@
 {
   "name": "build",
   "version": "0.1.0",
+  "engine": {
+    "node":"16.x"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
