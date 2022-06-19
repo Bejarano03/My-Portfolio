@@ -26,12 +26,20 @@ export const HeroH1 = styled.h1`
     font-size: 33px;
     text-align: center;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 768px){
+        font-size: 22px;
+    }
 `;
 
 export const HeroP = styled.p`
     font-family: Georgia;
     font-size: 22px;
     text-align: center;
+
+    @media screen and (max-width: 768px){
+        font-size: 18px;
+    }
 `;
 
 export const Image = styled.img`
