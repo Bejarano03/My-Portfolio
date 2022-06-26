@@ -1,12 +1,12 @@
-import { Container } from '@mui/system';
+import { Box } from '@mui/material';
 import React from 'react';
 
 function AboutSection() {
   return (
     <>
-        <Container className="Container-About">
-            
-        </Container>
+      <Box>
+        
+      </Box>
     </>
   )
 }

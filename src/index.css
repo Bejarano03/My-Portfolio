@@ -21,3 +21,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.profile {
+  width: 350px;
+  margin-top: 20px;
+
+}
+
+figcaption {
+  color: #fff;
+  background: #000;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .profile {
+    width: 300px;
+  }
+}
